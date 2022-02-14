@@ -1,0 +1,13 @@
+git config --global user.name "your_username" #配置用户信息
+git config --global user.name your_email
+git init #初始化代码管理仓库
+git add file_name #添加到缓冲区
+git reset HEAD #清空缓冲区
+git status #查看当前状态，即工作区文件有没有添加到缓冲区
+git commit -m ' 本次修改要说明的事项' #将缓冲区文件添加到本地仓库
+git log #查看版本日志
+git log -5 --pretty=oneline #显示五行，一次打印一行
+git reset --hard HEAD^ #回退到上个版本
+git reset --hard HEAD^^ #回退到上上个版本
+git reset --hard HEAD~5 #回退5个版本
+git reset --hard 唯一标识符的前5位 #去往指定的版本
