@@ -12,4 +12,10 @@ git reset --hard HEAD^^ #回退到上上个版本
 git reset --hard HEAD~5 #回退5个版本
 git reset --hard 唯一标识符的前5位 #去往指定的版本
 git checkout git01.txt #恢复工作区误删除的git01.txt文件
-git ls-files #查看本地库的文件 
+git ls-files #查看本地库的文件
+git checkout branch # 切换到指定分支
+git checkout -b new_branch #新建分支并切换到新建分支
+git branch -d branch #删除指定分支
+git branch #查看所有分支,并且*号标记当前所在分支
+git 2pranch #合并分支
+git branch -m |-M #重命名分支，如果newbranch名字分支已经存在，则需要使用-M强制重命
